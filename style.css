@@ -1,4 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* menu */
+header{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 200px;
+    box-shadow: 0 0px 20px 0 rgb(130, 130, 130);
+
+}
+.nav-menu{
+display: flex;
+justify-content: end;
+}
+.ul-menu{
+display: flex;
+list-style: none;
+}
+
+.li-menu{
+display: list-item;
+
+}
+
+.link-menu{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
 }

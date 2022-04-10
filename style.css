@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* menu */
@@ -9,7 +10,7 @@ header {
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 150px;
+  padding-right: 120px;
   box-shadow: 0 0px 20px 0 rgb(130, 130, 130);
 }
 .nav-menu {
@@ -34,37 +35,39 @@ header {
 }
 
 .link-menu-contacto {
-  margin: 100px 70px 100px 50px;
+  margin: 40px 30px 40px 30px;
   background-color: rgb(236, 29, 150);
   border-radius: 100px;
   align-items: center;
   text-decoration: none;
   font-size: 20px;
-  color: rgb(130, 130, 130);
+  color: rgb(184, 181, 181);
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
+/* presentación*/
 .yo-soy {
-  height: 600px;
+  height: 700px;
+  width: 1200px;
   display: flex;
+  align-items: center;
+  justify-content: right;
 }
 
 .info {
+  height: 300px;
+  width: 500px;
+  display: flex;
   flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  padding-top: 200px;
+  text-align: left;
   align-items: flex-start;
 }
 
-.info {
-  padding-left: 150px;
-}
-
 .imagen-inicio {
-  height: 400px;
-  width: 500px;
-  padding-top: 60px;
-  padding-left: 100px;
+  height: 300px;
+  width: 400px;
 }
 
 .imagen {
@@ -74,24 +77,33 @@ header {
 
 .fuccia {
   color: rgb(236, 29, 150);
-}
-
-h1 {
+  margin-bottom: 8px;
   font-size: 40px;
 }
 
-.boton {
-  margin: 100px 70px 100px 50px;
-  background-color: rgb(236, 29, 150);
-  border-radius: 100px;
-  align-items: center;
-  text-decoration: none;
-  font-size: 20px;
-  color: rgb(130, 130, 130);
+h4 {
+  color: rgb(185, 182, 182);
+  margin-bottom: 20px;
 }
 
+.boton {
+  background-color: rgb(236, 29, 150);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 20px;
+  color: rgb(235, 233, 233);
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*Mis conocimientos*/
+
 .conocimientos-container {
-  height: 800px;
+  height: 900px;
   width: 1500px;
   background-color: rgb(230, 230, 213);
 }
@@ -102,79 +114,170 @@ h1 {
   align-items: center;
 }
 
-.h1-conocimientos {
+.mis-conocimientos {
   padding-bottom: 30px;
   font-size: 32px;
 }
 
-
-.cajas-conocimientos {
+.cajas-conocimientos1,
+.cajas-conocimientos2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.cita{
-    width: 1500px;
-    height: 450px;
-    background-color: rgb(236, 29, 150);
-    align-items: center;
-    text-align: center;
-    color:rgb(230, 230, 213);
-    
+.caja1,
+.caja2,
+.caja3,
+.caja4,
+.caja5,
+.caja6 {
+  height: 180px;
+  width: 200px;
+  margin: 50px 50px 50px 50px;
+  background-color: white;
+  border: 1px rgb(160, 158, 158);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.alguien{
-    padding-top: 20px;
+.html,
+.css,
+.sas,
+.java,
+.react,
+.git {
+  font-size: 500%;
 }
 
-.mis-proyectos{
-    height: 900px;
-    width: 1500px;
-    text-align: center;
+h3 {
+  color: black;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
-.h1-proyectos{
-    font-size: 32px;
-    padding-top: 100px;
-    padding-bottom: 40px;
+/* cita*/
 
+.cita {
+  width: 1500px;
+  height: 450px;
+  background-color: rgb(236, 29, 150);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgb(230, 230, 213);
 }
 
-.formulario{
-    height: 600px;
-    width: 1500px;
-    background-color: rgb(230, 230, 213);
+.logo-cita {
+  font-size: 70px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-footer{
-    height: 250px;
-    background-color: rgb(236, 29, 150);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+.alguien {
+  margin-top: 50px;
+}
+/* Mis proyectos*/
+
+.proyectos-container {
+  display: flex;
+  flex-direction: column;
 }
 
-.navegador{
-    display: flex;
-    justify-content: center;
-    
-    
+.mis-proyectos {
+  height: 300px;
+  width: 1500px;
+  text-align: center;
+}
+
+.h1-proyectos {
+  font-size: 32px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+
+.cajas-proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cajas-proyectos1,
+.cajas-proyectos2 {
+  display: flex;
+}
+
+.cajas-proyectos3 {
+  display: flex;
+  align-items: flex-start;
+  text-align: left;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7 {
+  height: 300px;
+  width: 300px;
+  margin: 50px 50px 50px 50px;
+  border: 10x rgb(95, 93, 93);
+  border: solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.formulario {
+  height: 600px;
+  width: 1500px;
+  background-color: rgb(97, 97, 93);
+}
+
+footer {
+  height: 250px;
+  background-color: rgb(236, 29, 150);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navegador {
+  display: flex;
+  justify-content: center;
 }
 
 .ul-menu-final {
-    display: flex;
-    list-style: none;
-  }
-  
-  .li-menu-final {
-    
-    
-  }
+  display: flex;
+  list-style: none;
+}
 
-  .link-menu-final{
-    text-decoration: none;
-    margin: 10px;
-    font-size: 15px; 
-    color: rgb(230, 230, 213);
-    
-  }
+.li-menu-final {
+}
+
+.link-menu-final {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 15px;
+  color: rgb(230, 230, 213);
+}
+
+.caja-amor {
+  display: flex;
+}
+
+.amor {
+  margin-top: 70px;
+  color: rgb(230, 230, 213);
+  font-size: 15px;
+}

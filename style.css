@@ -7,10 +7,10 @@
 
 /* menu */
 header {
+  width: 100%;
   background-color: white;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 120px;
   box-shadow: 0 0px 20px 0 rgb(130, 130, 130);
 }
 .nav-menu {
@@ -42,15 +42,19 @@ header {
   text-decoration: none;
   font-size: 20px;
   color: rgb(184, 181, 181);
-  padding-right: 30px;
+  padding-right: 50px;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+.link-menu-contacto:hover {
+  background-color: rgb(238, 82, 173);
+}
 /* presentación*/
 .yo-soy {
   height: 700px;
-  width: 1200px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -100,11 +104,15 @@ h4 {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.boton:hover {
+  background-color: rgb(238, 82, 173);
+}
 /*Mis conocimientos*/
 
 .conocimientos-container {
   height: 900px;
-  width: 1500px;
+  width: 100%;
   background-color: rgb(230, 230, 213);
 }
 
@@ -119,24 +127,19 @@ h4 {
   font-size: 32px;
 }
 
-.cajas-conocimientos1,
-.cajas-conocimientos2 {
+.conocimientos-grilla {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.caja1,
-.caja2,
-.caja3,
-.caja4,
-.caja5,
-.caja6 {
+.conocimientos-item {
   height: 180px;
   width: 200px;
   margin: 50px 50px 50px 50px;
   background-color: white;
-  border: 1px rgb(160, 158, 158);
+  border: 1px solid rgb(160, 158, 158);
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -144,12 +147,12 @@ h4 {
   flex-direction: column;
 }
 
-.html,
-.css,
-.sas,
-.java,
-.react,
-.git {
+
+.conocimientos-item:hover{
+  border: 1px solid rgb(238, 82, 173);
+}
+
+.conocimientos-icon {
   font-size: 500%;
 }
 
@@ -159,11 +162,15 @@ h3 {
   margin-top: 15px;
 }
 
+h3:hover{
+  color: rgb(238, 82, 173);
+}
+
 /* cita*/
 
 .cita {
-  width: 1500px;
-  height: 450px;
+  width: 100%;
+  height: 500px;
   background-color: rgb(236, 29, 150);
   display: flex;
   flex-direction: column;
@@ -190,7 +197,7 @@ h3 {
 
 .mis-proyectos {
   height: 300px;
-  width: 1500px;
+  width: 100%;
   text-align: center;
 }
 
@@ -202,30 +209,13 @@ h3 {
 
 .cajas-proyectos {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  
 }
 
-.cajas-proyectos1,
-.cajas-proyectos2 {
-  display: flex;
-}
-
-.cajas-proyectos3 {
-  display: flex;
-  align-items: flex-start;
-  text-align: left;
-}
-.box1,
-.box2,
-.box3,
-.box4,
-.box5,
-.box6,
-.box7 {
-  height: 300px;
-  width: 300px;
+.box {
+  height: 250px;
+  width: 250px;
   margin: 50px 50px 50px 50px;
   border: 10x rgb(95, 93, 93);
   border: solid;
@@ -239,12 +229,13 @@ h3 {
 
 .formulario {
   height: 600px;
-  width: 1500px;
+  width: 100%;
   background-color: rgb(97, 97, 93);
 }
 
 footer {
   height: 250px;
+  width: 100%;
   background-color: rgb(236, 29, 150);
   display: flex;
   flex-direction: column;

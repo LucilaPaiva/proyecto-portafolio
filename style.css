@@ -12,6 +12,7 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
   box-shadow: 0 0px 20px 0 rgb(130, 130, 130);
+  position: fixed;
 }
 .nav-menu {
   display: flex;
@@ -145,7 +146,9 @@ h4 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
 }
+
 
 
 .conocimientos-item:hover{
@@ -160,10 +163,6 @@ h3 {
   color: black;
   font-size: 18px;
   margin-top: 15px;
-}
-
-h3:hover{
-  color: rgb(238, 82, 173);
 }
 
 /* cita*/
@@ -217,20 +216,69 @@ h3:hover{
   height: 250px;
   width: 250px;
   margin: 50px 50px 50px 50px;
-  border: 10x rgb(95, 93, 93);
-  border: solid;
+  border: 1px solid rgb(160, 158, 158);
   border-radius: 5px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
   background-color: white;
 }
 
-.formulario {
+.box:hover {
+  border: 1px solid rgb(238, 82, 173);
+}
+
+.imagen-portfolio{
+  
+  width: 90%; 
+}
+
+.proyecto-nombre{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.proyecto-nombre:hover{
+  color:rgb(238, 82, 173)
+}
+
+.formulario-seccion {
   height: 600px;
   width: 100%;
-  background-color: rgb(97, 97, 93);
+  background-color: rgb(160, 160, 156);
+  align-items: center;
+  padding-top: 1%;
+  
+  
+}
+
+.formulario-container{
+  height: 450px;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 100px 100px 100px;
+  border: 1px solid rgb(160, 158, 158);
+  border-radius: 10px;
+  
+}
+.contact{
+height: 300px;
+width: 30%;
+}
+
+.p-contact{
+  font-size: 12px;
+  
+}
+
+.escribime{
+height: 300px;
+width: 35%;
+
 }
 
 footer {

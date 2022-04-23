@@ -131,6 +131,7 @@ h4 {
 .conocimientos-grilla {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding-left: 100px;
   padding-right: 100px;
 }
@@ -155,11 +156,15 @@ h4 {
   border: 1px solid rgb(238, 82, 173);
 }
 
+.conocimientos-item:hover .conocimientos-item-title{
+ color:  rgb(238, 82, 173);
+}
+
 .conocimientos-icon {
   font-size: 500%;
 }
 
-h3 {
+.conocimientos-item-title {
   color: black;
   font-size: 18px;
   margin-top: 15px;
@@ -229,6 +234,10 @@ h3 {
   border: 1px solid rgb(238, 82, 173);
 }
 
+.box:hover .proyecto-nombre{
+  color: rgb(238, 82, 173);
+}
+
 .imagen-portfolio{
   
   width: 90%; 
@@ -239,9 +248,7 @@ h3 {
   font-size: 12px;
 }
 
-.proyecto-nombre:hover{
-  color:rgb(238, 82, 173)
-}
+
 
 .formulario-seccion {
   height: 600px;
@@ -249,7 +256,8 @@ h3 {
   background-color: rgb(160, 160, 156);
   align-items: center;
   padding-top: 1%;
-  
+  display: flex;
+  justify-content: center;
   
 }
 
@@ -260,14 +268,20 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px 100px 100px 100px;
+  margin-top: 100px;
   border: 1px solid rgb(160, 158, 158);
   border-radius: 10px;
   
 }
+
+.nombre-apellido{
+  display: flex;
+}
+
 .contact{
 height: 300px;
 width: 30%;
+
 }
 
 .p-contact{
@@ -278,6 +292,8 @@ width: 30%;
 .escribime{
 height: 300px;
 width: 35%;
+display: flex;
+flex-direction: column;
 
 }
 

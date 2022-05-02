@@ -45,12 +45,12 @@
         </ul>
       </nav>
     </header>
-    <section id="hola" class="yo-soy">
+    <section id="hola" class="presentación">
       <div class="info">
-        <h2>Hola! Soy</h2>
+        <h2 class="soy">Hola! Soy</h2>
         <h1><span class="fuccia">Lucila Paiva</span></h1>
         <h4>Desarrolladora, prof. de Yoga y amante de la naturaleza</h4>
-        <a href="#loquehago" class="boton">Lo que hago</a>
+        <a href="#proyectos" class="boton">Lo que hago</a>
       </div>
       <div class="imagen-inicio">
         <img class="imagen" src="undraw_Body_text_re_9riw.png" />
@@ -76,7 +76,7 @@
           <div class="conocimientos-icon">
             <i class="devicon-css3-plain colored"></i>
           </div>
-          <h3 class="conocimientos-item-title" >Css</h3>
+          <h3 class="conocimientos-item-title">Css</h3>
         </div>
         <div class="conocimientos-item">
           <div class="conocimientos-icon">
@@ -113,10 +113,10 @@
         Quasi eius deleniti id nobis ut explicabo ullam <br />
         iusto porro necessitatibus maiores?
       </p>
-      <h2 class="alguien">Someone</h2>
+      <h2 class="autor">Someone</h2>
     </section>
 
-    <article id="proyectos" class="proyectos-container">
+    <section id="proyectos" class="proyectos-container">
       <div class="mis-proyectos">
         <h1 class="h1-proyectos">Mis proyectos</h1>
         <p>
@@ -125,41 +125,41 @@
           excepturi fugiat eveniet.
         </p>
       </div>
-      <div class="cajas-proyectos">
-        <div class="box">
+      <div class="proyectos-grilla">
+        <div class="proyectos-box">
           <img
             class="imagen-portfolio"
             src="undraw_portfolio_website_re_jsdd.svg"
           />
           <p class="proyecto-nombre">Portfolio</p>
         </div>
-        <div class="box">
+        <div class="proyectos-box">
           <img
             class="imagen-portfolio"
             src="undraw_through_the_window_-51-ew.svg"
           />
           <p class="proyecto-nombre">Generador de memes</p>
         </div>
-        <div class="box">
+        <div class="proyectos-box">
           <img class="imagen-portfolio" src="undraw_gaming_re_cma2.svg" />
           <p class="proyecto-nombre">Match 3</p>
         </div>
-        <div class="box">
+        <div class="proyectos-box">
           <img class="imagen-portfolio" src="undraw_treasure_of-9-i.svg" />
           <p class="proyecto-nombre">Controlador de gastos</p>
         </div>
-        <div class="box">
+        <div class="proyectos-box">
           <img class="imagen-portfolio" src="undraw_calendar_re_ki49.svg" />
           <p class="proyecto-nombre">Administrador de reuniones</p>
         </div>
-        <div class="box">
+        <div class="proyectos-box">
           <img
             class="imagen-portfolio"
             src="undraw_app_installation_re_h36x.svg"
           />
           <p class="proyecto-nombre">Todo app</p>
         </div>
-        <div class="box">
+        <div class="proyectos-box">
           <img
             class="imagen-portfolio"
             src="undraw_video_streaming_re_v3qg.svg"
@@ -167,42 +167,74 @@
           <p class="proyecto-nombre">Buscador de películas</p>
         </div>
       </div>
-    </article>
-    <div id="contacto" class="formulario-seccion">
-      <div class="formulario-container">
+    </section>
+    <div id="contacto" class="contact-seccion">
+      <div class="contact-container">
         <div class="contact">
-          <h1>Contactáme</h1>
+          <h1 class="contact-me">Contactáme</h1>
           <p class="p-contact">
-            Lorem ipsum dolor sit amet consectetur <br/> 
-            elit. Sint ipsam dolorum doloremque neque <br/>
-            suscipit incidunt eos natus voluptate fugit <br/>
-            iure! Minima dolor natus deserunt officiis 
+            Lorem ipsum dolor sit amet consectetur <br />
+            elit. Sint ipsam dolorum doloremque neque <br />
+            suscipit incidunt eos natus voluptate fugit <br />
+            iure! Minima dolor natus deserunt officiis
           </p>
+          <div class="social-media-contacto">
+            <ul class="social-media-enlaces">
+              <li class="social-media-ítem">
+                <a
+                  href="https://www.instagram.com/lucila.paiva.yoga/"
+                  class="links-media"
+                  ><i class="fa-brands fa-instagram"></i> @lucila.paiva.yoga
+                </a>
+              </li>
+              <li class="social-media-ítem">
+                <a href="https://github.com/LucilaPaiva" class="links-media"
+                  ><i class="fa-brands fa-github-alt"></i>
+                  LucilaPaiva
+                </a>
+              </li>
+              <li class="social-media-ítem">
+                <a href="https://www.linkedin.com/feed/" class="links-media"
+                  ><i class="fa-brands fa-linkedin"></i>
+                  LucilaPaivaYoga
+                </a>
+              </li>
+              <li class="social-media-ítem">
+                <a href="mailto:lucila.paiva@gmail.com" class="links-media"
+                  ><i class="fa-solid fa-envelope"></i>
+                  lucilapaivayoga@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="escribime">
           <form>
-          <h1>Escribime</h1>
-          <div class="nombre-apellido">
-            <div>
-              <h5 class="nombre">Nombre *</h5> 
-              <input type="text" placeholder="p. ej.: ADA" required>  
+            <h1 class="whrit-me">Escribime</h1>
+            <div class="group-nombre-apellido">
+              <div class="group-nombre">
+                <label for="nombre">Nombre *</label>
+                <input type="text" placeholder="p. ej.: ADA" required />
+              </div>
+              <div class="group-apellido">
+                <label for="apellido">Apellido *</label>
+                <input type="text" placeholder="p.ej.: Lovelace" required />
+              </div>
             </div>
-            <div>
-              <h5 class="apellido">Apellido *</h5>
-              <input type="text" placeholder="p.ej.: Lovelace" required>
-            </div>
-          </div>
-          <h5 class="mail">E-mail*</h5>
-          <input type="email" placeholder="p. ej.: ada.lovelace@gmail.com" required>
-          <h5 class="mensaje">Mensaje*</h5>
-          <textarea placeholder="Escribe un mensaje aqui.." required></textarea> 
-          <button type="submit">Enviar</button>
+            <label for="mail">E-mail*</label>
+            <input
+              type="email"
+              placeholder="p. ej.: ada.lovelace@gmail.com"
+              required
+            />
+            <label for="mensaje">Mensaje*</label>
+            <textarea
+              placeholder="Escribe un mensaje aqui.."
+              required
+            ></textarea>
+            <button type="submit" class="button-submit">Enviar</button>
           </form>
-        
-
-          
         </div>
-
       </div>
     </div>
 
@@ -223,12 +255,30 @@
           </li>
         </ul>
       </div>
-      <div class="loguitos">
-        <!--acá van loguitos de facebook, etc-->
+      <div class="social-media-footer">
+        <ul class="social-media-footer-list">
+          <li class="social-media-footer-enlaces">
+            <a href="https://www.instagram.com/lucila.paiva.yoga/" class="icono-final"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li class="social-media-footer-enlaces">
+            <a href="https://github.com/LucilaPaiva" class="icono-final"
+              ><i class="fa-brands fa-github-alt"></i
+            ></a>
+          </li>
+          <li class="social-media-footer-enlaces">
+            <a href="https://www.linkedin.com/feed/" class="icono-final"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="social-media-footer-enlaces">
+            <a href="mailto:lucil.paiva@gmail.com" class="icono-final"><i class="fa-solid fa-envelope"></i></a>
+          </li>
+        </ul>
       </div>
-      <div class="caja-amor">
-        <p class="amor">Hecho con amor 💗 por Lucila</p>
-        <!--falta el logo corazón <div class="corazon"><i class="fa-solid fa-heart"></i></div> -->
+      <div class="final-love-container">
+        <p class="final-love">Hecho con 💗 por Lucila</p>
       </div>
     </footer>
   </body>

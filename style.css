@@ -10,7 +10,7 @@ body{
   box-shadow: inset 0px 0px 30px rgb(130, 130, 130);
 }
 
-/* Menu */
+/* ##### Menu ##### */
 header {
   width: 100%;
   background-color: white;
@@ -58,7 +58,8 @@ header {
 .link-menu-contacto:hover {
   background-color: rgb(238, 82, 173);
 }
-/* Sección resentación*/
+
+/* ##### Sección resentación  ##### */
 
 .presentación {
   padding-top: 15em;
@@ -70,10 +71,8 @@ header {
 }
 
 .info {
-  height: 40%; 
   display: flex;
   flex-direction: column;
-  text-align: left;
   align-items: flex-start;
   margin-bottom: 2em;
   
@@ -89,7 +88,7 @@ header {
 
 .imagen-inicio {
   height: 35%;
-  width: 30%;
+  width: 35%;
   
 }
 
@@ -131,7 +130,7 @@ h4 {
   background-color:rgb(221, 63, 155) ;
 }
 
-/*Comienza la sección Mis conocimientos*/
+/* ##### Comienza la sección Mis conocimientos ##### */
 
 .conocimientos-container {
   
@@ -195,6 +194,8 @@ h4 {
   
 }
 
+/* ##### Fin sección mis cnocimientos #### *>
+
 /* Sección cita*/
 
 .cita {
@@ -214,12 +215,15 @@ h4 {
   color: white;
 }
 
+.picasso{
+  font-size: 1.5em;
+}
 .autor {
   margin-top: 1.8em;
   margin-bottom: 3.5em;
 }
 
-/*Fin sección Cita*/
+/*  ##### Fin sección Cita #####*/
 
 /* ### Sección Mis proyectos ###*/
 
@@ -279,14 +283,14 @@ h4 {
   font-size: 14px;
 }
 
-/*## Fin sección Proyectos ### */
+/*##### Fin sección Proyectos ##### */
 
-/* ### Sección contactáme ###*/
+/* ##### Sección contactáme #####*/
 
 .contact-seccion {
   
   width: 100%;
-  background-color: rgb(160, 160, 156);
+  background-color: rgb(218, 218, 214);
   align-items: center;
   display: flex;
   justify-content: center;
@@ -296,12 +300,11 @@ h4 {
 
 .contact-container {
   
-  width: 80%;
+  width: 90%;
   background-color: white;
   display: flex;
-  
   justify-content: center;
-  border: 1px solid rgb(160, 158, 158);
+  border: 0.2em solid rgb(160, 158, 158);
   border-radius: 10px;
   margin-top: 4.5em;
   padding-bottom: 8em;
@@ -313,6 +316,7 @@ h4 {
   flex-direction: column;
   align-items: flex-start;
   margin-top: 3em;
+  
   
   
 }
@@ -345,7 +349,7 @@ font-weight: 900px;
 }
   
 .social-media-ítem{
-  height: 50px;
+  height: 2.5em;
   width: 50px;
   border-radius: 50%;
   }
@@ -355,6 +359,8 @@ font-weight: 900px;
   font-size: 1.5em;
   color: rgb(236, 29, 150);
   padding: 0.3em;
+  margin-right: 1em;
+
   
 }
 
@@ -363,7 +369,7 @@ font-weight: 900px;
   color: white;
 } 
 
-.social-media-ítem:hover{
+.social-media-ítem:hover i{
   background-color: rgb(236, 29, 150);
   color: white;
   height: 40px;
@@ -382,11 +388,12 @@ font-weight: 900px;
   
   width: 45%;
   margin-top: 4em;
+  margin-left: 2em;
   
 }
 
 .p-contact {
-  font-size: 12px;
+  font-size: 1em;
   margin-top: 2em;
   
 }
@@ -397,10 +404,11 @@ font-weight: 900px;
 
 .escribime {
   
-  width: 35%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   margin-top: 4em;
+  padding-right: 1.5em;
 }
 
 form {
@@ -423,7 +431,7 @@ label {
 .group-nombre {
   display: flex;
   flex-direction: column;
-  margin-right: 20px;
+  margin-right: 4.5em;
 }
 
 .group-apellido {
@@ -434,17 +442,18 @@ label {
 input {
   margin-bottom: 10px;
   height: 40px;
-  border-radius: 15px;
+  border-radius: 1em;
   background-color: #eee;
   border: none;
-  padding: 10px 15px;
-  width: 100%;
+  
 }
 
 
 
 input::placeholder {
-  padding-left: 15px;
+  padding-left: 1em;
+  margin-right: 3em;
+  
 }
 
 input:focus {
@@ -458,7 +467,7 @@ textarea{
   border-radius: 1em;
   background-color: #eee;
   border: none;
-  width: 100%;
+  
   
 }
 
@@ -469,7 +478,7 @@ textarea:focus{
 }
 
 .button-submit {
-  margin-top: 15px;
+  margin-top: 2.5em;
   width: 40%;
   border-radius: 2em;
   padding-right: 20px;
@@ -596,12 +605,17 @@ footer {
   font-size: 1em;
 }
 
-/* ##### Media ##### */
+/* ######## Media ######## */
 
-/* @media screm and(max-width:480px) and (max-wit:819px){
-  .nav-menu {
-    display: none;
-  } 
+ /* @media screm and (min-width:480px) and (max-width:819px){
+
+  header {
+    display: inline-block;
+  }
+
+  .nav-menu{
+    display: block;
+  }
 
   .presentación {
     display: flex;
@@ -612,7 +626,7 @@ footer {
 
   
 .info {
-  height: 40%; 
+   
   text-align: center;
   flex-direction: column;
   margin-bottom: 2em;
@@ -620,23 +634,24 @@ footer {
 
 
 .soy{
-  font-size: 1.2em;
-  font-weight: 500;
-  padding-bottom: 0.5em;
+  font-size: 0.8em;
+  font-weight: 300;
+  padding-bottom: 0.3em;
   
 }
 
   .imagen {
-    width: 40%;
-    height: 40%;
+    
     text-align: center;
   }
 }
 
-@media screm and (max-width:480px) and (max-wit:819px){
-  .nav-menu {
-    display: none;
+@media screm and (min-width:200px) and (max-width:480px){
+  header {
+    display: inline-block;
   } 
+
+
 
   .presentación {
     display: flex;
@@ -645,12 +660,11 @@ footer {
     
   }
   .imagen {
-    width: 40%;
-    height: 40%;
+    text-align: center;
   }
 
 .info {
-  height: 40%; 
+   
   text-align: center;
   flex-direction: column;
   margin-bottom: 2em;
@@ -662,12 +676,7 @@ footer {
   
 }
 
-  .imagen {
-    width: 40%;
-    height: 40%;
-    text-align: center;
-  }
-} */
+}  */
 
 
 

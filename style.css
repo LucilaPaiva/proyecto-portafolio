@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   box-shadow: inset 0px 0px 30px rgb(130, 130, 130);
 }
 
@@ -75,21 +75,17 @@ header {
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2em;
-  
 }
 
-
-.soy{
+.soy {
   font-size: 2.2em;
   font-weight: 900;
   padding-bottom: 0.5em;
-  
 }
 
 .imagen-inicio {
   height: 35%;
   width: 35%;
-  
 }
 
 .imagen {
@@ -127,13 +123,12 @@ h4 {
 }
 
 .boton:hover {
-  background-color:rgb(221, 63, 155) ;
+  background-color: rgb(221, 63, 155);
 }
 
 /* ##### Comienza la sección Mis conocimientos ##### */
 
 .conocimientos-container {
-  
   width: 100%;
   background-color: rgb(230, 230, 213);
 }
@@ -149,7 +144,6 @@ h4 {
   font-weight: 800;
   padding-top: 2.5em;
   margin-bottom: 1em;
-
 }
 
 .conocimientos-grilla {
@@ -158,11 +152,9 @@ h4 {
   justify-content: center;
   align-items: center;
   margin-top: 2em;
-  
 }
 
 .conocimientos-item {
-  
   width: 15em;
   height: 15em;
   margin: 50px 50px 50px 50px;
@@ -183,7 +175,7 @@ h4 {
   color: rgb(238, 82, 173);
 }
 
-.conocimientos-icon i{
+.conocimientos-icon i {
   font-size: 6em;
 }
 
@@ -191,7 +183,6 @@ h4 {
   color: black;
   font-size: 1.3em;
   margin-top: 1em;
-  
 }
 
 /* ##### Fin sección mis cnocimientos #### *>
@@ -208,14 +199,14 @@ h4 {
   color: rgb(230, 230, 213);
 }
 
-.logo-cita{
+.logo-cita {
   font-size: 5em;
   margin-top: 1em;
   margin-bottom: 0.5em;
   color: white;
 }
 
-.picasso{
+.picasso {
   font-size: 1.5em;
 }
 .autor {
@@ -253,7 +244,6 @@ h4 {
 }
 
 .proyectos-box {
-  
   width: 300px;
   margin: 15px;
   padding: 12px;
@@ -288,18 +278,15 @@ h4 {
 /* ##### Sección contactáme #####*/
 
 .contact-seccion {
-  
   width: 100%;
   background-color: rgb(218, 218, 214);
   align-items: center;
   display: flex;
   justify-content: center;
   padding-bottom: 7em;
-  
 }
 
 .contact-container {
-  
   width: 90%;
   background-color: white;
   display: flex;
@@ -308,7 +295,6 @@ h4 {
   border-radius: 10px;
   margin-top: 4.5em;
   padding-bottom: 8em;
-  
 }
 
 .social-media-contacto {
@@ -316,94 +302,73 @@ h4 {
   flex-direction: column;
   align-items: flex-start;
   margin-top: 3em;
-  
-  
-  
 }
-
 
 .contact .escribime {
-  width: 100%; 
-  
+  width: 100%;
 }
 
-.contact-me .whrit-me{
-font-weight: 900px;
-
+.contact-me .whrit-me {
+  font-weight: 900px;
 }
 
-.social-media-enlaces{
+.social-media-enlaces {
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
-.links-media{
+.links-media {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: black;
-  
 }
-  
-.social-media-ítem{
+
+.social-media-ítem {
   height: 2.5em;
   width: 50px;
   border-radius: 50%;
-  }
-  
-.social-media-ítem i{
-  
+}
+
+.social-media-ítem i {
   font-size: 1.5em;
   color: rgb(236, 29, 150);
   padding: 0.3em;
   margin-right: 1em;
-
-  
 }
 
-
-.social-media-ítem i:hover{
+.social-media-ítem i:hover {
   color: white;
-} 
+}
 
-.social-media-ítem:hover i{
+.social-media-ítem:hover i {
   background-color: rgb(236, 29, 150);
   color: white;
   height: 40px;
   width: 40px;
-  border-radius: 50%; 
-  
-  
-
+  border-radius: 50%;
 }
-.social-media-ítem:hover .links-media{
+.social-media-ítem:hover .links-media {
   color: rgb(236, 29, 150);
   margin-bottom: 0.8em;
-} 
+}
 
 .contact {
-  
   width: 45%;
   margin-top: 4em;
   margin-left: 2em;
-  
 }
 
 .p-contact {
   font-size: 1em;
   margin-top: 2em;
-  
 }
-
 
 /* #### Formulario/Escribime ### */
 
-
 .escribime {
-  
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -415,7 +380,6 @@ form {
   display: flex;
   flex-direction: column;
 }
-
 
 label {
   font-size: 15px;
@@ -431,12 +395,15 @@ label {
 .group-nombre {
   display: flex;
   flex-direction: column;
-  margin-right: 4.5em;
+  width: 50%;
+  padding-right: 10px;
 }
 
 .group-apellido {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  padding-left: 10px;
 }
 
 input {
@@ -445,15 +412,11 @@ input {
   border-radius: 1em;
   background-color: #eee;
   border: none;
-  
 }
-
-
 
 input::placeholder {
   padding-left: 1em;
   margin-right: 3em;
-  
 }
 
 input:focus {
@@ -461,18 +424,15 @@ input:focus {
   outline: none;
 }
 
-textarea{
+textarea {
   margin: 0.2em;
   padding: 2em;
   border-radius: 1em;
   background-color: #eee;
   border: none;
-  
-  
 }
 
-
-textarea:focus{
+textarea:focus {
   box-shadow: 0px 0px 5px 1px rgb(238, 82, 173);
   outline: none;
 }
@@ -494,18 +454,15 @@ textarea:focus{
   border: none;
 }
 
-
-.button-submit:hover{
+.button-submit:hover {
   background-color: rgb(207, 117, 170);
-} 
-
+}
 
 /* ### Fin de la sección formulario ###*/
 
 /* ### Comienza la sección footer ###*/
 
 footer {
-  
   width: 100%;
   background-color: rgb(236, 29, 150);
   display: flex;
@@ -513,13 +470,10 @@ footer {
   align-items: center;
   justify-content: center;
   padding-top: 3em;
-  
-  
 }
 
 .navegador {
   display: flex;
-  
 }
 
 .ul-menu-final {
@@ -527,56 +481,46 @@ footer {
   list-style: none;
 }
 
-
-
 .link-menu-final {
   text-decoration: none;
   margin: 10px;
   font-size: 1.2em;
   color: rgb(230, 230, 213);
-  
-  
-  
 }
 
 /* sección íconos redes */
 
-.social-media-footer{
+.social-media-footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
- .social-media-footer-list{
+.social-media-footer-list {
   display: flex;
   padding-top: 1em;
-  
 }
 
-.social-media-footer-enlaces{
+.social-media-footer-enlaces {
   list-style: none;
   height: 50px;
   width: 50px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin-right: 0.8em;
   border-radius: 50%;
   background-color: white;
   color: rgb(236, 29, 150);
-  
-  
- 
 }
 
-.social-media-footer-enlaces i{
+.social-media-footer-enlaces i {
   margin: auto;
 }
 
-.social-media-footer-enlaces .icono-final:hover{
- background-color: rgb(236, 29, 150);
- color:white;
- height: 50px;
+.social-media-footer-enlaces .icono-final:hover {
+  background-color: rgb(236, 29, 150);
+  color: white;
+  height: 50px;
   width: 50px;
   border-radius: 50%;
   display: flex;
@@ -584,14 +528,11 @@ footer {
   align-items: center;
   list-style: none;
   text-decoration: none;
- 
-
 }
 
-.icono-final{
+.icono-final {
   color: rgb(236, 29, 150);
   font-size: 1.5em;
-  
 }
 
 .final-love-container {
@@ -607,77 +548,162 @@ footer {
 
 /* ######## Media ######## */
 
- /* @media screm and (min-width:480px) and (max-width:819px){
-
+@media screen and (min-width: 480px) and (max-width: 819px) {
   header {
-    display: inline-block;
-  }
-
-  .nav-menu{
-    display: block;
+    display: none;
   }
 
   .presentación {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
   }
 
-  
-.info {
-   
-  text-align: center;
-  flex-direction: column;
-  margin-bottom: 2em;
-}
+  .info {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
 
+  .soy {
+    font-size: 2em;
+    font-weight: 900;
+    padding-bottom: 0.3em;
+  }
 
-.soy{
-  font-size: 0.8em;
-  font-weight: 300;
-  padding-bottom: 0.3em;
-  
-}
+  .fuccia{
+    font-size: 2.5em;
+  }
+
+  .boton {
+    font-size: 1.5em;
+  }
+
+  .imagen-inicio {
+    width: 90%;
+  }
 
   .imagen {
-    
     text-align: center;
+  }
+
+  .logo-cita {
+    font-size: 4em;
+  }
+
+  .contact-container {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5em;
+  }
+
+  .contact {
+    width: 100%;
+  }
+
+  .social-media-contacto{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .escribime{
+    width: 90%;
   }
 }
 
-@media screm and (min-width:200px) and (max-width:480px){
+@media screen and (min-width: 200px) and (max-width: 480px) {
   header {
-    display: inline-block;
-  } 
-
-
+    display: none;
+  }
 
   .presentación {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
   }
+
   .imagen {
     text-align: center;
   }
 
-.info {
-   
-  text-align: center;
-  flex-direction: column;
-  margin-bottom: 2em;
+  .imagen-inicio {
+    width: 90%;
+  }
+
+  .info {
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  .soy {
+    font-size: 1.5em;
+    font-weight: 900;
+    padding-bottom: 0.5em;
+  }
+
+  .fuccia {
+    font-size: 2em;
+  }
+
+  .boton {
+    font-size: 1em;
+  }
+
+  .logo-cita {
+    font-size: 4em;
+  }
+
+  .picasso {
+    font-size: 1.2em;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 1em;
+  }
+
+  .escribime {
+    width: 100%;
+    padding-left: 1.5em;
+  }
+
+  .group-nombre-apellido {
+    flex-direction: column;
+  }
+
+  .group-nombre {
+    width: 100%;
+    padding-right: 0;
+  }
+  .group-apellido {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .ul-menu-final {
+    flex-direction: column;
+    padding-right: 5.5em;
+    padding-bottom: 1.5em;
+  }
+
+  .li-menu-final {
+    margin-top: 0.2em;
+  }
+  .social-media-footer {
+    padding-bottom: 0.5em;
+  }
+
+  .final-love {
+    padding-right: 2.5em;
+  }
 }
-.soy{
-  font-size: 1.2em;
-  font-weight: 500;
-  padding-bottom: 0.5em;
-  
-}
-
-}  */
-
-
-
-

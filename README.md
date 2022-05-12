@@ -6,7 +6,7 @@
 
 #### Te invito a visitar mi primer trabajo. [Github-LucilaPaiva](https://lucilapaiva.github.io/proyecto-portafolio/) .
 
-Y mi de aprendizaje camino sigue y sigue..... nuevas ideas y lenguajes se agregarán  💡  💻  🎇 
+Y camino de aprendizaje  sigue y sigue..... nuevas ideas y lenguajes se agregarán  💡  💻  🎇 
 
 
 

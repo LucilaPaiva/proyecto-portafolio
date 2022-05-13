@@ -333,9 +333,9 @@ h4 {
 }
 
 .social-media-ítem i {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: rgb(236, 29, 150);
-  padding: 0.3em;
+  padding: 0.4em;
   margin-right: 1em;
 }
 
@@ -557,13 +557,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    
   }
 
   .info {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2em;
+    
   }
 
   .soy {
@@ -582,6 +584,7 @@ footer {
 
   .imagen-inicio {
     width: 90%;
+    padding-top: 4em;
   }
 
   .imagen {

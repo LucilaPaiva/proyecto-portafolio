@@ -24,23 +24,23 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
 
-    <title>Portafolio</title>
+    <title>Portfolio</title>
   </head>
   <body>
-    <header>
+    <header title="Barra de navegación">
       <nav class="nav-menu">
         <ul class="ul-menu">
           <li class="li-menu">
-            <a href="#hola" class="link-menu">Hola</a>
+            <a aria-label="Botón a presentación" title="Botón hola" href="#hola" class="link-menu">Hola</a>
           </li>
           <li class="li-menu">
-            <a href="#conocimientos" class="link-menu">Conocimientos</a>
+            <a aria-label="Botón a conocimientos" title="Botón conocimientos"href="#conocimientos" class="link-menu">Conocimientos</a>
           </li>
           <li class="li-menu">
-            <a href="#proyectos" class="link-menu">Proyectos</a>
+            <a aria-label="Botón a Proyectos" title="Botón proyectos"href="#proyectos" class="link-menu">Proyectos</a>
           </li>
           <li class="li-menu">
-            <a href="#contacto" class="link-menu-contacto">Contacto</a>
+            <a aria-label="Botón a Contacto" title="Botón contacto"href="#contacto" class="link-menu-contacto">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -49,19 +49,19 @@
       <div class="info">
         <h2 class="soy">¡Hola! Soy</h2>
         <h1><span class="fuccia">Lucila Paiva</span></h1>
-        <h4>Desarrolladora, prof. de Yoga y amante de la naturaleza</h4>
-        <a href="#proyectos" class="boton">Lo que hago</a>
+        <h4>Profesora de Yoga, Desarrolladora y amante de la naturaleza</h4>
+        <a href="#proyectos" aria-label="botón Lo que hago" class="boton">Lo que hago</a>
       </div>
       <div class="imagen-inicio">
-        <img class="imagen" src="undraw_Body_text_re_9riw.png" />
+        <img class="imagen" src="undraw_Body_text_re_9riw.png" alt="Imágen Desarrolladora"/>
       </div>
     </section>
     <section id="conocimientos" class="conocimientos-container">
       <div class="conocimientos">
         <h1 class="mis-conocimientos">Mis conocimientos</h1>
         <p>
-          A lo largo de mi formación voy incorporando <br />
-          éstas herramientas y así voy adentrándome <br />
+          A lo largo de mi formación estoy incorporando <br />
+          estas herramientas y así voy adentrándome <br />
           en el mundo de la programación.
         </p>
       </div>
@@ -105,7 +105,7 @@
       </div>
     </section>
     <section class="cita">
-      <div class="logo-cita">
+      <div aria-hidden="Logo cita" class="logo-cita">
         <i class="fa-solid fa-quote-right"></i>
       </div>
       <p class="picasso">
@@ -125,43 +125,45 @@
         </p>
       </div>
       <div class="proyectos-grilla">
-        <div class="proyectos-box">
+        <div title="proyecto portfolio" aria-label="Botón a" class="proyectos-box">
+          <a class="proyectos-box-a" href="https://lucilapaiva.github.io/proyecto-portafolio/">
           <img
             class="imagen-portfolio"
-            src="undraw_portfolio_website_re_jsdd.svg"
+            src="undraw_portfolio_website_re_jsdd.svg" alt="Proyecto-Portfolio"
           />
-          <p class="proyecto-nombre">Portfolio</p>
+          </a>
+          <p class="proyecto-nombre">Portfolio </p>
         </div>
-        <div class="proyectos-box">
+        <div title="proyecto Generador de memes" aria-label="Botón a" class="proyectos-box">
           <img
             class="imagen-portfolio"
-            src="undraw_through_the_window_-51-ew.svg"
+            src="undraw_through_the_window_-51-ew.svg" alt="Proyecto Meme"
           />
           <p class="proyecto-nombre">Generador de memes</p>
         </div>
-        <div class="proyectos-box">
-          <img class="imagen-portfolio" src="undraw_gaming_re_cma2.svg" />
+        <div title="proyecto Match 3" aria-label="Botón a"class="proyectos-box">
+          <img class="imagen-portfolio" src="undraw_gaming_re_cma2.svg" alt="Proyecto Match 3"/>
           <p class="proyecto-nombre">Match 3</p>
         </div>
-        <div class="proyectos-box">
-          <img class="imagen-portfolio" src="undraw_treasure_of-9-i.svg" />
+        <div title="proyecto Controlador de gastos" aria-label="Botón a" class="proyectos-box">
+          <img class="imagen-portfolio" src="undraw_treasure_of-9-i.svg" alt="Proyecto Controlador de gastos" />
           <p class="proyecto-nombre">Controlador de gastos</p>
         </div>
-        <div class="proyectos-box">
-          <img class="imagen-portfolio" src="undraw_calendar_re_ki49.svg" />
+        <div title="proyecto Administrador de reuniones" aria-label="Botón a" class="proyectos-box">
+          <img class="imagen-portfolio" src="undraw_calendar_re_ki49.svg" alt="Proyecto Administrador de reuniones"/>
           <p class="proyecto-nombre">Administrador de reuniones</p>
         </div>
-        <div class="proyectos-box">
+        <div title="proyecto todo app" aria-label="Botón a" class="proyectos-box">
           <img
             class="imagen-portfolio"
-            src="undraw_app_installation_re_h36x.svg"
+            src="undraw_app_installation_re_h36x.svg" alt="Proyecto Todo app"
           />
           <p class="proyecto-nombre">Todo app</p>
         </div>
-        <div class="proyectos-box">
+        <div title="proyecto Buscador de películas" aria-label="Botón a" class="proyectos-box">
           <img
             class="imagen-portfolio"
-            src="undraw_video_streaming_re_v3qg.svg"
+            src="undraw_video_streaming_re_v3qg.svg" alt="Proyecto Buscador de películas"
           />
           <p class="proyecto-nombre">Buscador de películas</p>
         </div>
@@ -181,26 +183,29 @@
           <div class="social-media-contacto">
             <ul class="social-media-enlaces">
               <li class="social-media-ítem">
-                <a
+                <a aria-label="Botón a instagram" title="Botón a instagram"
                   href="https://www.instagram.com/lucila.paiva.yoga/"
                   class="links-media"
                   ><i class="fa-brands fa-instagram"></i>@lucila.paiva.yoga
                 </a>
               </li>
               <li class="social-media-ítem">
-                <a href="https://github.com/LucilaPaiva" class="links-media"
+                <a aria-label="Botón a Github" title="Botón a Github"
+                  href="https://github.com/LucilaPaiva" class="links-media"
                   ><i class="fa-brands fa-github-alt"></i>
                   LucilaPaiva
                 </a>
               </li>
               <li class="social-media-ítem">
-                <a href="https://www.linkedin.com/feed/" class="links-media"
+                <a aria-label="Botón a Linkedin" title="Botón a Linkedin"
+                  href="https://www.linkedin.com/feed/" class="links-media"
                   ><i class="fa-brands fa-linkedin"></i>
                   <span class="linkedin">LucilaPaivaYoga</span>
                 </a>
               </li>
               <li class="social-media-ítem">
-                <a href="mailto:lucila.paiva@gmail.com" class="links-media"
+                <a aria-label="Botón a mail" title="Botón a mail"
+                  href="mailto:lucila.paiva@gmail.com" class="links-media"
                   ><i class="fa-solid fa-envelope"></i>
                   lucilapaivayoga@gmail.com</a
                 >
@@ -214,68 +219,70 @@
             <div class="group-nombre-apellido">
               <div class="group-nombre">
                 <label for="nombre">Nombre *</label>
-                <input type="text" placeholder="p. ej.: Lucila" required />
+                <input aria-label="Escribir nombre"  type="text"  placeholder="p. ej.: Lucila" required />
               </div>
               <div class="group-apellido">
                 <label for="apellido">Apellido *</label>
-                <input type="text" placeholder="p.ej.: Paiva" required />
+                <input aria-label="Escribir apellido" type="text" placeholder="p. ej.: Paiva" required /> 
               </div>
             </div>
             <label for="mail">E-mail*</label>
-            <input
-              type="email"
-              placeholder="p. ej.: lucila.paiva@gmail.com"
+            <input aria-label="Escribir mail"
+              type="email" placeholder="p. ej.: lucila.paiva@gmail.com"
               required
             />
             <label for="mensaje">Mensaje*</label>
-            <textarea
+            <textarea aria-label="Escribime un mensaje"
               placeholder="Escribe un mensaje aqui.."
               required
             ></textarea>
-            <button type="submit" class="button-submit">Enviar</button>
+            <button aria-label="botón enviar" type="submit" class="button-submit">Enviar</button>
           </form>
         </div>
       </div>
     </div>
 
-    <footer>
+    <footer title="Footer">
       <div class="navegador">
         <ul class="ul-menu-final">
           <li class="li-menu-final">
-            <a href="#hola" class="link-menu-final">Hola</a>
+            <a aria-label="Botón a presentación" title="Botón hola" href="#hola" class="link-menu-final">Hola</a>
           </li>
           <li class="li-menu-final">
-            <a href="#conocimientos" class="link-menu-final">Conocimientos</a>
+            <a aria-label="Botón a conocimientos" title="Botón conocimientos" href="#conocimientos" class="link-menu-final">Conocimientos</a>
           </li>
           <li class="li-menu-final">
-            <a href="#proyectos" class="link-menu-final">Proyectos</a>
+            <a aria-label="Botón a proyectos" title="Botón proyectos"href="#proyectos" class="link-menu-final">Proyectos</a>
           </li>
           <li class="li-menu-final">
-            <a href="#contacto" class="link-menu-final">Contacto</a>
+            <a aria-label="Botón a contacto" title="Botón contacto" href="#contacto" class="link-menu-final">Contacto</a>
           </li>
         </ul>
       </div>
       <div class="social-media-footer">
         <ul class="social-media-footer-list">
           <li class="social-media-footer-enlaces">
-            <a
+            <a  aria-label="Botón a instagram" title="Botón a instagram"
               href="https://www.instagram.com/lucila.paiva.yoga/"
               class="icono-final"
               ><i class="fa-brands fa-instagram"></i
             ></a>
           </li>
           <li class="social-media-footer-enlaces">
-            <a href="https://github.com/LucilaPaiva" class="icono-final"
+            <a aria-label="Botón a Github" title="Botón a Github"
+              href="https://github.com/LucilaPaiva" class="icono-final"
               ><i class="fa-brands fa-github-alt"></i
             ></a>
           </li>
           <li class="social-media-footer-enlaces">
-            <a href="https://www.linkedin.com/feed/" class="icono-final"
+            <a aria-label="Botón a Linkedin" title="Botón a Linkedin"
+              href="https://www.linkedin.com/feed/" class="icono-final"
               ><i class="fa-brands fa-linkedin"></i
             ></a>
           </li>
           <li class="social-media-footer-enlaces">
-            <a href="mailto:lucil.paiva@gmail.com" class="icono-final"
+            <a aria-label="Botón a mail" title="Botón a mail"
+              href="mailto:lucil.paiva@gmail.com" class="icono-final"
               ><i class="fa-solid fa-envelope"></i
             ></a>
           </li>

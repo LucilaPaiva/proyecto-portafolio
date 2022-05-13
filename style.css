@@ -557,6 +557,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 1.7em;
+    
     
     
   }
@@ -565,6 +567,7 @@ footer {
     text-align: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 1em;
     
   }
 
@@ -626,6 +629,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 1.7em;
   }
 
   .imagen {

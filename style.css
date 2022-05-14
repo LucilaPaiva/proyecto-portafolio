@@ -40,6 +40,10 @@ header {
   color: rgb(185, 182, 182);
 }
 
+.link-menu:hover{
+  color: rgb(238, 82, 173);
+}
+
 .link-menu-contacto {
   margin-right: 10em;
   background-color: rgb(236, 29, 150);
@@ -121,7 +125,7 @@ h4 {
   padding-bottom: 0.8em;
 }
 
-.boton:hover {
+.boton-loquehago:hover {
   background-color: rgb(221, 63, 155);
 }
 
@@ -486,6 +490,10 @@ footer {
   margin: 10px;
   font-size: 1.2em;
   color: rgb(230, 230, 213);
+}
+
+.link-menu-final:hover{
+  color: rgb(177, 177, 165);
 }
 
 /* #### sección íconos redes ####*/

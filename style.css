@@ -16,7 +16,6 @@ header {
   background-color: white;
   padding-top: 2em;
   padding-bottom: 2em;
-  padding-right: 0.5em;
   box-shadow: 0px 0px 20px 0 rgb(130, 130, 130);
   position: fixed;
 }
@@ -37,7 +36,7 @@ header {
 .link-menu {
   text-decoration: none;
   margin: 0.9em;
-  font-size: 1em;
+  font-size: 1.2em;
   color: rgb(185, 182, 182);
 }
 
@@ -47,7 +46,7 @@ header {
   border-radius: 2.8em;
   align-items: center;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
   color: rgb(207, 203, 203);
   padding-right: 1.5em;
   padding-left: 1.5em;
@@ -61,7 +60,7 @@ header {
 
 /* ##### Sección resentación  ##### */
 
-.presentación {
+.presentacion-title {
   padding-top: 15em;
   padding-bottom: 4em;
   width: 100%;
@@ -70,14 +69,14 @@ header {
   justify-content: space-around;
 }
 
-.info {
+.info-title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 2em;
 }
 
-.soy {
+.soy-title {
   font-size: 2.2em;
   font-weight: 900;
   padding-bottom: 0.5em;
@@ -93,7 +92,7 @@ header {
   height: 100%;
 }
 
-.fuccia {
+.h2name-fuccia {
   color: rgb(236, 29, 150);
   margin-top: 1em;
   margin-bottom: 1em;
@@ -107,7 +106,7 @@ h4 {
   font-size: 1em;
 }
 
-.boton {
+.boton-loquehago {
   background-color: rgb(236, 29, 150);
   border-radius: 3em;
   display: flex;
@@ -206,10 +205,10 @@ h4 {
   color: white;
 }
 
-.picasso {
+.cita-picasso-text {
   font-size: 1.5em;
 }
-.autor {
+.cita-autor {
   margin-top: 1.8em;
   margin-bottom: 3.5em;
 }
@@ -252,7 +251,7 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-color: white;
 }
 
@@ -264,13 +263,14 @@ h4 {
   color: rgb(238, 82, 173);
 }
 
-.imagen-portfolio {
+.imagen-proyectos-box {
   width: 90%;
 }
 
 .proyecto-nombre {
   font-weight: bold;
   font-size: 14px;
+  
 }
 
 /*##### Fin sección Proyectos ##### */
@@ -326,31 +326,31 @@ h4 {
   color: black;
 }
 
-.social-media-ítem {
+.social-media-item {
   height: 2.5em;
   width: 50px;
   border-radius: 50%;
 }
 
-.social-media-ítem i {
+.social-media-item i {
   font-size: 1.4em;
   color: rgb(236, 29, 150);
   padding: 0.4em;
   margin-right: 1em;
 }
 
-.social-media-ítem i:hover {
+.social-media-item i:hover {
   color: white;
 }
 
-.social-media-ítem:hover i {
+.social-media-item:hover i {
   background-color: rgb(236, 29, 150);
   color: white;
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
-.social-media-ítem:hover .links-media {
+.social-media-item:hover .links-media {
   color: rgb(236, 29, 150);
   margin-bottom: 0.8em;
 }
@@ -415,8 +415,8 @@ input {
 }
 
 input::placeholder {
-  padding-left: 1em;
-  margin-right: 3em;
+  padding-left: 10px;
+  margin-right: 25px;
 }
 
 input:focus {
@@ -472,7 +472,7 @@ footer {
   padding-top: 3em;
 }
 
-.navegador {
+.navegador-final {
   display: flex;
 }
 
@@ -488,7 +488,7 @@ footer {
   color: rgb(230, 230, 213);
 }
 
-/* sección íconos redes */
+/* #### sección íconos redes ####*/
 
 .social-media-footer {
   display: flex;
@@ -553,35 +553,32 @@ footer {
     display: none;
   }
 
-  .presentación {
+  .presentacion-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 1.7em;
-    
-    
-    
   }
 
-  .info {
+  .info-title {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 1em;
+    padding-top: 2em;
     
   }
 
-  .soy {
+  .soy-title {
     font-size: 2em;
     font-weight: 900;
     padding-bottom: 0.3em;
   }
 
-  .fuccia{
+  .h2name-fuccia{
     font-size: 2.5em;
   }
 
-  .boton {
+  .boton-loquehago {
     font-size: 1.5em;
   }
 
@@ -625,7 +622,7 @@ footer {
     display: none;
   }
 
-  .presentación {
+  .presentacion-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -638,26 +635,27 @@ footer {
 
   .imagen-inicio {
     width: 90%;
+    padding-top: 3em;
   }
 
-  .info {
+  .info-title {
     text-align: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2em;
+    padding-top: 2em;
   }
 
-  .soy {
+  .soy-title {
     font-size: 1.5em;
     font-weight: 900;
     padding-bottom: 0.5em;
   }
 
-  .fuccia {
+  .h2name-fuccia {
     font-size: 2em;
   }
 
-  .boton {
+  .boton-loquehago {
     font-size: 1em;
   }
 
@@ -665,8 +663,8 @@ footer {
     font-size: 4em;
   }
 
-  .picasso {
-    font-size: 1.2em;
+  .cita-picasso-text {
+    font-size: 1.1em;
   }
 
   .contact-container {

@@ -416,6 +416,7 @@ input {
   border-radius: 1em;
   background-color: #eee;
   border: none;
+  padding: 1em;
 }
 
 input::placeholder {

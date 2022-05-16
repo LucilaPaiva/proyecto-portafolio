@@ -107,7 +107,7 @@ h4 {
   color: rgb(185, 182, 182);
   margin-bottom: 2.5em;
   margin-top: 20px;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .boton-loquehago {
@@ -227,7 +227,7 @@ h4 {
 }
 
 .mis-proyectos {
-  height: 18em;
+  /* height: 18em; */
   width: 100%;
   text-align: center;
 }
@@ -235,7 +235,7 @@ h4 {
 .h1-proyectos {
   font-size: 2em;
   padding-top: 3em;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 
 .proyectos-grilla {
@@ -243,7 +243,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 1.5em;
-  margin-top: 0.5em;
+  padding-top: 2em;
 }
 
 .proyectos-box {
@@ -320,7 +320,7 @@ h4 {
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  
 }
 
 .links-media {
@@ -331,8 +331,7 @@ h4 {
 }
 
 .social-media-item {
-  height: 2.5em;
-  width: 50px;
+  text-align: start;
   border-radius: 50%;
 }
 
@@ -350,20 +349,18 @@ h4 {
 .social-media-item:hover i {
   background-color: rgb(236, 29, 150);
   color: white;
-  height: 40px;
-  width: 40px;
   border-radius: 50%;
 }
+
 .social-media-item:hover .links-media {
   color: rgb(236, 29, 150);
-  margin-bottom: 0.8em;
+  
 }
 
-.social-media-item .links-media:focus{
-  box-shadow: 0px 0px 5px 1px rgb(238, 82, 173);
+.links-media:focus{
+  box-shadow: 0px 0px 4px 1px rgb(238, 82, 173);
   border-radius: 1em;
-  width: 600%;
-  padding: 2%;
+  padding: 0.1em;
 }
 
 
@@ -592,8 +589,8 @@ footer {
   }
 
   h4{
-    font-size: 0.8em;
-  }
+    font-size: 1.3em;
+  } 
 
   .h2name-fuccia{
     font-size: 2.5em;
@@ -676,6 +673,10 @@ footer {
     padding-bottom: 0.5em;
   }
 
+  h4{
+    font-size: 0.8;
+  }
+
   .h2name-fuccia {
     font-size: 2em;
   }
@@ -686,6 +687,10 @@ footer {
 
   .mis-conocimientos{
     font-size: 1.5em;
+  }
+
+  .parrafo-conocimientos{
+    font-size: 1.1em;
   }
 
   .conocimientos-item{
@@ -700,10 +705,6 @@ footer {
 
   .cita-picasso-text {
     font-size: 1.1em;
-  }
-
-  .proyectos-grilla{
-    margin-top: 5.5em;
   }
 
   .contact-container {
@@ -723,9 +724,6 @@ footer {
 
   .contact-me .write-me{
     font-size: 1.5em;
-  }
-
-  
   }
 
   .group-nombre-apellido {

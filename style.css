@@ -51,7 +51,7 @@ header {
   align-items: center;
   text-decoration: none;
   font-size: 1.2em;
-  color: rgb(207, 203, 203);
+  color: white;
   padding-right: 1.5em;
   padding-left: 1.5em;
   padding-top: 0.5em;
@@ -118,7 +118,7 @@ h4 {
   text-decoration: none;
   justify-content: center;
   font-size: 1.4em;
-  color: rgb(207, 203, 203);
+  color: white;
   padding-right: 1.8em;
   padding-left: 1.8em;
   padding-top: 0.8em;
@@ -359,6 +359,14 @@ h4 {
   margin-bottom: 0.8em;
 }
 
+.social-media-item .links-media:focus{
+  box-shadow: 0px 0px 5px 1px rgb(238, 82, 173);
+  border-radius: 1em;
+  width: 600%;
+  padding: 2%;
+}
+
+
 .contact {
   width: 45%;
   margin-top: 4em;
@@ -583,6 +591,10 @@ footer {
     padding-bottom: 0.3em;
   }
 
+  h4{
+    font-size: 0.8em;
+  }
+
   .h2name-fuccia{
     font-size: 2.5em;
   }
@@ -615,6 +627,10 @@ footer {
     width: 100%;
   }
 
+  .contact-me .write-me{
+    font-size: 2em;
+  }
+
   .social-media-contacto{
     display: flex;
     flex-wrap: wrap;
@@ -643,7 +659,7 @@ footer {
   }
 
   .imagen-inicio {
-    width: 90%;
+    width: 80%;
     padding-top: 3em;
   }
 
@@ -668,12 +684,26 @@ footer {
     font-size: 1em;
   }
 
+  .mis-conocimientos{
+    font-size: 1.5em;
+  }
+
+  .conocimientos-item{
+    justify-content: center;
+    height: 0%;
+  }
+
+
   .logo-cita {
     font-size: 4em;
   }
 
   .cita-picasso-text {
     font-size: 1.1em;
+  }
+
+  .proyectos-grilla{
+    margin-top: 5.5em;
   }
 
   .contact-container {
@@ -689,6 +719,13 @@ footer {
   .escribime {
     width: 100%;
     padding-left: 1.5em;
+  }
+
+  .contact-me .write-me{
+    font-size: 1.5em;
+  }
+
+  
   }
 
   .group-nombre-apellido {

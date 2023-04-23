@@ -46,7 +46,7 @@ header {
 
 .link-menu-contacto {
   margin-right: 10em;
-  background-color: rgb(236, 29, 150);
+  background-color: rgb(189, 92, 148);
   border-radius: 2.8em;
   align-items: center;
   text-decoration: none;
@@ -97,7 +97,7 @@ header {
 }
 
 .h2name-fuccia {
-  color: rgb(236, 29, 150);
+  color: rgb(189, 92, 148);
   margin-top: 1em;
   margin-bottom: 1em;
   font-size: 2.5em;
@@ -111,7 +111,7 @@ h4 {
 }
 
 .boton-loquehago {
-  background-color: rgb(236, 29, 150);
+  background-color: rgb(189, 92, 148);
   border-radius: 3em;
   display: flex;
   align-items: center;
@@ -194,7 +194,7 @@ h4 {
 
 .cita {
   width: 100%;
-  background-color: rgb(236, 29, 150);
+  background-color: rgb(189, 92, 148);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -474,7 +474,7 @@ textarea:focus {
 
 footer {
   width: 100%;
-  background-color: rgb(236, 29, 150);
+  background-color: rgb(189, 92, 148);
   display: flex;
   flex-direction: column;
   align-items: center;
